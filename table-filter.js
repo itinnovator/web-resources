@@ -89,3 +89,13 @@ $(document).on('click', '._tw_w .pagination a', function(event) {
       });
     }
   });
+
+function url_get($param) {
+  var geturl = new URLSearchParams(window.location.search);
+  var c = geturl.get($param);
+  if (c != null) {
+    return c;
+  }
+
+  return '';
+}
