@@ -1,0 +1,17 @@
+tr.filter td {
+  padding: 5px;
+  border-bottom: solid 1px #ccc;
+  border-top: solid 1px #ccc;
+  background: #f1efea;
+  text-align: center;
+}
+
+.filter .form-control {
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+
+#id._tf {
+    max-width: 50px;
+}
